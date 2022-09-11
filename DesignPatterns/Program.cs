@@ -1,5 +1,16 @@
-﻿#region Singleton Pattern
+﻿using DesignPatterns.CreationalPatterns.Sigleton.After;
+using DesignPatterns.CreationalPatterns.Factory.After;
+using DesignPatterns.CreationalPatterns.FactoryWithCreator;
+using DesignPatterns.CreationalPatterns.AbstractFactory.After;
 
-SingletonClient.ExecutePattern();
+// Singleton Pattern
+// SingletonClient.ExecutePattern();
 
-#endregion
+// Factory (Method) Pattern
+// FactoryClient.ExecutePattern();
+
+// Factory (Method) Pattern With Creator
+// FactoryWithCreatorClient.ExecutePattern();
+
+// Abstract Factory Pattern
+// AbstractFactoryClient.ExecutePattern();

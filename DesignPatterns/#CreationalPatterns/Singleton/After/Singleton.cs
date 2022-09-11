@@ -1,3 +1,5 @@
+namespace DesignPatterns.CreationalPatterns.Sigleton.After;
+
 public class Singleton
 {
     private static Singleton? instance;

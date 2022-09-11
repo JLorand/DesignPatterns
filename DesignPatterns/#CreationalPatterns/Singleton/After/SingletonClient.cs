@@ -1,3 +1,5 @@
+namespace DesignPatterns.CreationalPatterns.Sigleton.After;
+
 public static class SingletonClient
 {
     public static void ExecutePattern()
@@ -12,6 +14,10 @@ public static class SingletonClient
         if (s1 == s2 && s3 == s4)
         {
             Console.WriteLine("Objects are the same instance");
+        }
+        else
+        {
+            Console.WriteLine("Objects are not the same");
         }
     }
 }
