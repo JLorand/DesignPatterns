@@ -1,10 +1,10 @@
-﻿using DesignPatterns.CreationalPatterns.Sigleton.After;
+using DesignPatterns.CreationalPatterns.Sigleton.After;
 using DesignPatterns.CreationalPatterns.Factory.After;
 using DesignPatterns.CreationalPatterns.FactoryWithCreator;
 using DesignPatterns.CreationalPatterns.AbstractFactory.After;
 
 // Singleton Pattern
-// SingletonClient.ExecutePattern();
+SingletonClient.ExecutePattern();
 
 // Factory (Method) Pattern
 // FactoryClient.ExecutePattern();
