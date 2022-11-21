@@ -1,4 +1,4 @@
-namespace DesignPatterns.CreationalPatterns.Builder.Before;
+namespace DesignPatterns._CreationalPatterns.Builder.Before.Houses;
 
 public class DetachedHouse : House
 {
@@ -8,7 +8,7 @@ public class DetachedHouse : House
         int numberOfWindows,
         int numberOfRooms) : base(numberOfDoors, numberOfWindows, numberOfRooms)
     {
-        SizeOfGarden = sizeOfGarden;
+        this.SizeOfGarden = sizeOfGarden;
     }
 
     public int SizeOfGarden { get; init; }

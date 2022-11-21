@@ -1,4 +1,4 @@
-namespace DesignPatterns.CreationalPatterns.Builder.Before;
+namespace DesignPatterns._CreationalPatterns.Builder.Before.Houses;
 
 public abstract class House
 {
@@ -7,9 +7,9 @@ public abstract class House
         int numberOfWindows,
         int numberOfRooms)
     {
-        NumberOfDoors = numberOfDoors;
-        NumberOfWindows = numberOfWindows;
-        NumberOfRooms = numberOfRooms;
+        this.NumberOfDoors = numberOfDoors;
+        this.NumberOfWindows = numberOfWindows;
+        this.NumberOfRooms = numberOfRooms;
     }
 
     public int NumberOfDoors { get; init; }
