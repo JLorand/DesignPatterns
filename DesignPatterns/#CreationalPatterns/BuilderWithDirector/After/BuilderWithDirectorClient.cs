@@ -1,4 +1,4 @@
-﻿using DesignPatterns._CreationalPatterns.BuilderWithDirector.After.Builder;
+﻿using DesignPatterns._CreationalPatterns.BuilderWithDirector.After.Builders;
 using DesignPatterns._CreationalPatterns.BuilderWithDirector.After.Director;
 
 namespace DesignPatterns.CreationalPatterns.Builder.After;
@@ -17,8 +17,8 @@ public static class BuilderWithDirectorClient
         
         
         var luxuryHouseBuilder = new LuxuryHouseBuilder();
-        var luxurxHouse = company.BuildLuxuryHouse(luxuryHouseBuilder);
-        Console.WriteLine(luxurxHouse);
+        var luxuryHouse = company.BuildLuxuryHouse(luxuryHouseBuilder);
+        Console.WriteLine(luxuryHouse);
         
         // Some logic after concrete types created
     }

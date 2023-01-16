@@ -1,6 +1,6 @@
 ﻿using DesignPatterns._CreationalPatterns.BuilderWithDirector.After.Houses;
 
-namespace DesignPatterns._CreationalPatterns.BuilderWithDirector.After.Builder;
+namespace DesignPatterns._CreationalPatterns.BuilderWithDirector.After.Builders;
 
 
 public class LuxuryHouseBuilder : ILuxuryHouseBuilder

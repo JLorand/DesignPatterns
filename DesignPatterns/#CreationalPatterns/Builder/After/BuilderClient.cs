@@ -13,6 +13,13 @@ public static class BuilderClient
         simpleHouseBuilder.WithNumberOfWindows(3);
         simpleHouseBuilder.WithNumberOfDoors(1);
         var simpleHouse = simpleHouseBuilder.Build();
+
+        // Or with chaining the methods
+        // var simpleHouse = new HouseBuilder()
+        //     .WithNumberOfRooms(2)
+        //     .WithNumberOfWindows(3)
+        //     .WithNumberOfDoors(1)
+        //     .Build();
         Console.WriteLine(simpleHouse);
         
         
@@ -26,8 +33,19 @@ public static class BuilderClient
         luxoryHouseBuilder.WithPool();
         luxoryHouseBuilder.WithSauna();
         var luxoryHouse = luxoryHouseBuilder.Build();
-        Console.WriteLine(luxoryHouse);
         
+        // Or with chaining the methods
+        // var luxoryHouse = new HouseBuilder().WithNumberOfRooms(6)
+        //     .WithNumberOfWindows(12)
+        //     .WithNumberOfDoors(3)
+        //     .WithSizeOfGarage(2)
+        //     .WithSizeOfGarden(1000)
+        //     .WithBalcony()
+        //     .WithPool()
+        //     .WithSauna()
+        //     .Build();
+        
+        Console.WriteLine(luxoryHouse);
         // Some logic after concrete types created
     }
 }

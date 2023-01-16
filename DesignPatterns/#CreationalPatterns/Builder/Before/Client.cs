@@ -8,7 +8,7 @@ public static class Client
     {
         // Some logic before creating concrete types
         
-        var detachedHouseWithGarage = new LuxoryDetachedHouse(true, true, true, 2, 100, 2, 8, 8);
+        var detachedHouseWithGarage = new LuxuryDetachedHouse(true, true, true, 2, 100, 2, 8, 8);
 
         // Some logic after concrete types created
     }

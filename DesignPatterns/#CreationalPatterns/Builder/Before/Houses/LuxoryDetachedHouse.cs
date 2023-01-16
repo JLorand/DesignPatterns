@@ -1,8 +1,8 @@
 namespace DesignPatterns._CreationalPatterns.Builder.Before.Houses;
 
-public class LuxoryDetachedHouse : DetachedHouse
+public class LuxuryDetachedHouse : DetachedHouse
 {
-    public LuxoryDetachedHouse(
+    public LuxuryDetachedHouse(
         bool hasBalcony,
         bool hasPool,
         bool hasSauna,
